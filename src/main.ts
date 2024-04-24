@@ -1,7 +1,6 @@
-// import { sql } from 'drizzle-orm'
-import { asc, count, desc, eq, gt } from "drizzle-orm"
+import { count } from "drizzle-orm"
 import { db } from "./drizzle/db"
-import { UserPreferencesTable, UserTable } from "./drizzle/schema"
+import { UserTable } from "./drizzle/schema"
 
 async function main() {
   // await db.delete(UserTable)

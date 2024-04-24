@@ -1,0 +1,22 @@
+{
+    "name": "drizzle-examples",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "tsx watch src/main.ts",
+        "db:generate": "drizzle-kit generate:pg",
+        "db:migrate": "tsx src/drizzle/migrate.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.7",
+        "drizzle-kit": "^0.20.17",
+        "tsx": "^4.7.2",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "drizzle-orm": "^0.30.9",
+        "postgres": "^3.4.4"
+    }
+}
